@@ -23,20 +23,20 @@ constructor() {
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={() => this.props.onIncrement(this.props.counter)}
-          className="btn btn-secondary btn-sm"
+          className="btn btn-secondary btn-sm m-1"
         >
           Increment
         </button>
         <button
           onClick={() => this.props.onDecrement(this.props.counter)}
-          className="btn btn-warning btn-sm"
+          className="btn btn-warning btn-sm m-1"
         >
           Decrement
         </button>
 
         <button
           onClick={() => this.props.onDelete(this.props.counter.id)}
-          className="btn btn-danger btn-sm"
+          className="btn btn-danger btn-sm m-1"
         >
           Delete
         </button>
