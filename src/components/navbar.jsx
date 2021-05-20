@@ -3,11 +3,13 @@ import React from 'react';
 //stateless functional component
 const NavBar = ({ totalCounters }) => {
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar{' '}
-          <span className="badge badge-pill bg-secondary">{totalCounters}</span>
+          Quantity{' '}
+          <span className="badge rounded-pill bg-secondary navbar-nav ml-auto">
+            {totalCounters}
+          </span>
         </a>
       </div>
     </nav>
