@@ -13,12 +13,12 @@ onMounted with AJAX calls could be added for remote DB functionality.
 This mini-project was used to test deployability to [GH pages.](https://dev-kris.github.io/react_app/).
 
 ## Technologies Used
-
-React
-Bootstrap v5.0.1
+ 
+React  
+Bootstrap v5.0.1  
 
 ## To run locally
-
-ensure nodeJS is installed
-clone repo
+ 
+ensure nodeJS is installed  
+clone repo  
 inside repo run 'npm init' and 'npm start'
